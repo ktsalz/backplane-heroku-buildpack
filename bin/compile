@@ -45,7 +45,7 @@ do
 done
 if [ "\$allowed" == "yes" ]; then
   echo "[backplane] Starting Backplane Agent"
-  \$HOME/bin/backplane connect "\$BACKPLANE_LABELS,heroku=true" https://kajabi-storefronts-staging.herokuapp.com &
+#  \$HOME/bin/backplane connect "\$BACKPLANE_LABELS,heroku=true" https://kajabi-storefronts-staging.herokuapp.com &
 else
   echo '[backplane] Skipping start of Backplane Agent'
 fi
